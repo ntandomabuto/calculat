@@ -22,15 +22,15 @@ document.addEventListener('DOMContentLoaded', function () {
                 } catch (error) {
                     input.value = 'Error';
                 }
+            } else if (action === 'divide') {
+                input.value += '/';
+            } else if (action === 'ultiply') {
+                input.value += '*';
+            } else if (action === 'fraction') {
+                input.value += '1/';
+            } else if (action === 'quare-root') {
+                input.value += 'Math.sqrt(';
             }
         });
     });
 });
-
-
-
-
-
-
-
-
